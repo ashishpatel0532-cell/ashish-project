@@ -36,3 +36,54 @@ button {
 button:hover {
   background: #45a049;
 }
+/* ========== Dark Theme ========== */
+body.dark {
+  background: #0f172a;
+  color: #e5e7eb;
+}
+
+body.dark header {
+  background: #111827;
+}
+
+body.dark nav {
+  background: #0b1220;
+  border-bottom-color: #1f2937;
+}
+
+body.dark nav a {
+  color: #93c5fd;
+}
+
+body.dark nav a:hover {
+  background: #1f2937;
+}
+
+body.dark button {
+  background: #2563eb;
+}
+
+body.dark footer {
+  color: #9ca3af;
+}
+/* Floating Theme Toggle Button */
+#theme-toggle {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #4caf50;
+  color: white;
+  border: none;
+  padding: 14px 16px;
+  font-size: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: all 0.3s ease;
+  z-index: 1000;
+}
+
+#theme-toggle:hover {
+  background: #45a049;
+  transform: scale(1.1);
+}

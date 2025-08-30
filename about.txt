@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Contact - Ashish Project</title>
+    <title>About - Ashish Project</title>
     <link rel="stylesheet"href="style.css">
 </head>
 <body>
-    <h1>Contact Me</h1>
+    <h1>About Me</h1>
     <button id="theme-toggle">🌙 Dark Mode</button>
-    <p>You can reach me at: <b>ashishpatel0532@gmail.com</b></p>
+    <p>Hello! My name is Ashish. This is my first project using GitHub Pages.</p>
 
     <nav>
         <a href="index.html">Home</a> | 
@@ -16,7 +16,7 @@
     </nav>
 <footer>© 2025 Ashish</footer>
   <button id="theme-toggle">🌙</button>
-        <script>
+    <script>
   const btn = document.getElementById("theme-toggle");
 
   // Load saved theme from localStorage
